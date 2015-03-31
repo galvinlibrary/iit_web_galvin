@@ -166,16 +166,11 @@
       </div>
     <?php endif; ?>
 
-    <!--
     <?php if ($breadcrumb): ?>
-      <div id="breadcrumb-wrapper">
-        <div class="container clearfix">
-          <?php print $breadcrumb; ?>
-        </div>
-      </div>
+      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
     <?php endif; ?>
-    -->
 
+                
     <?php if ($messages || $page['help']): ?>
       <div id="messages-help-wrapper">
         <div class="container clearfix">
