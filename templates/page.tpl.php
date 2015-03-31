@@ -166,9 +166,6 @@
       </div>
     <?php endif; ?>
 
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
 
                 
     <?php if ($messages || $page['help']): ?>
@@ -195,6 +192,11 @@
           <?php print render($page['highlighted']); ?>
 
           <<?php print $tag; ?> id="main-content">
+          
+            <?php if ($breadcrumb): ?>
+              <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+            <?php endif; ?>
+
 
             <?php print render($title_prefix); ?>
 
