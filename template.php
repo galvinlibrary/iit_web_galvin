@@ -27,8 +27,14 @@
  */
 
 function iit_web_galvin_breadcrumb($variables) {
+  $crumbs="";
   $sep = ' &raquo; '; // >> separator
-  $breadcrumb=$variables['breadcrumb'];
+  $breadcrumb=array_unique($variables['breadcrumb']);
+  
+  if (count($breadcrumb)<=1) {
+    return $crumbs;
+  }
+  
   $tmp = array_pop($breadcrumb); // remove the last element of the array, which is the static page title
   array_push($breadcrumb, '<span class="active">' . drupal_get_title() . '</span>'); // add current page title (handles context. filter from view)
   if (count($breadcrumb) > 0) {
