@@ -32,7 +32,7 @@ function iit_web_galvin_breadcrumb($variables) {
   $breadcrumb=array_unique($variables['breadcrumb']);
   
   if (count($breadcrumb)<=1) {
-    return $crumbs;
+    return "<div id=\"breadcrumb\">&nbsp;</div>"; // return empty breadcrumb div so that h1 tag doesn't float up
   }
   
   $tmp = array_pop($breadcrumb); // remove the last element of the array, which is the static page title
