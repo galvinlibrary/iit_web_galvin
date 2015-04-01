@@ -28,13 +28,15 @@
 
 function iit_web_galvin_breadcrumb($variables) {
   $sep = ' &raquo; '; // >> separator
-  if (count($variables['breadcrumb']) > 0) {
-    $crumbs= implode($sep, $variables['breadcrumb']) . $sep;
+  $breadcrumb=$variables['breadcrumb'];
+  $tmp = array_pop($breadcrumb); // remove the last element of the array, which is the static page title
+  array_push($breadcrumb, '<span class="active">' . drupal_get_title() . '</span>'); // add current page title (handles context. filter from view)
+  if (count($breadcrumb) > 0) {
+    $crumbs= implode($sep, $breadcrumb) . $sep;
     $crumbs = preg_replace("/$sep$/", '', $crumbs);
     return $crumbs;
   }
 }
-
 
 function iit_web_galvin_preprocess_html(&$vars) {
   global $theme_key;
