@@ -28,16 +28,17 @@
 
 function iit_web_galvin_breadcrumb($variables) {
   if (!empty($variables['breadcrumb'])) {
-    $crumbs = "";
-    $variables['breadcrumb'][] = '<span class="active">' . drupal_get_title() . '</span>';
+//    $crumbs = "";
+  // $variables['breadcrumb'];
+    //$variables['breadcrumb'][] = '<span class="active">' . drupal_get_title() . '</span>'; // this is causing a duplicate entry
     $breadcrumb = $variables['breadcrumb'];
+    //$tmp_breadcrumb = array_pop($breadcrumb); // seeing duplicate of page title on every page. Should update to actually com[are values
 
 
     // Provide a navigational heading to give context for breadcrumb links to
     // screen-reader users. Make the heading invisible with .element-invisible.
     $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
-
-
+        
     $output .= theme('item_list', array(
       'items' => $breadcrumb,
       'type' => 'ul',
@@ -49,6 +50,8 @@ function iit_web_galvin_breadcrumb($variables) {
     return $output;
   }
 }
+
+
 
 function iit_web_galvin_preprocess_html(&$vars) {
   global $theme_key;
