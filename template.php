@@ -27,7 +27,6 @@
  */
 
 function iit_web_galvin_breadcrumb($variables) {
-  $crumbs="";
   $sep = ' &raquo; '; // >> separator
   $breadcrumb=array_unique($variables['breadcrumb']);
   
@@ -35,10 +34,43 @@ function iit_web_galvin_breadcrumb($variables) {
     return "<div id=\"breadcrumb\">&nbsp;</div>"; // return empty breadcrumb div so that h1 tag doesn't float up
   }
   
-  $tmp = array_pop($breadcrumb); // remove the last element of the array, which is the static page title
+  array_pop($breadcrumb); // remove the last element of the array, which is the static page title
   array_push($breadcrumb, '<span class="active">' . drupal_get_title() . '</span>'); // add current page title (handles context. filter from view)
-  $crumbs= implode($sep, $breadcrumb) . $sep;
-  $crumbs = preg_replace("/$sep$/", '', $crumbs);
+
+  if (count($breadcrumb)==5){//this problem only occurs for fill db record display. maybe change to path check when that's set
+    $fixTitle=$breadcrumb[count($breadcrumb)-2]; // this is the problematic element given the current structure. 
+    
+    // quick fixes for UX testing. Make these better functions after paths determined.
+    if (stristr($fixTitle,"By Content")!= FALSE){
+        $start=strpos($fixTitle, "href=\"");
+        $end=strpos($fixTitle, "\" class=",$start);
+        $path=substr($fixTitle,$start+6,$end-$start-6);
+        $pathArr=split("/", $path);
+//        echo "FOUND: " . htmlspecialchars($fixTitle) . "<br/> $path";
+//        print_r($pathArr);
+//        echo "<br/>correct to " . $pathArr[count($pathArr)-1];
+        $breadcrumb[count($breadcrumb)-2]= str_replace("By Content", $pathArr[count($pathArr)-1], $fixTitle);
+    }
+    
+    if (stristr($fixTitle,"By Subject")!= FALSE){
+        $start=strpos($fixTitle, "href=\"");
+        $end=strpos($fixTitle, "\" class=",$start);
+        $path=substr($fixTitle,$start+6,$end-$start-6);
+        $pathArr=split("/", $path);
+        $breadcrumb[count($breadcrumb)-2]= str_replace("By Subject", $pathArr[count($pathArr)-1], $fixTitle);
+    }    
+
+  }
+/*
+ * Example $breadcrumb[3]
+ <span typeof="v:Breadcrumb">
+ * <a rel="v:url" property="v:title" 
+ * href="/find/databases/by-content/books-and-ebooks" 
+ * class="crumb crumb-4">By Content</a>
+ * </span>
+*/        
+  $crumbs=implode($sep, $breadcrumb) . $sep; // make a string out of an array
+  $crumbs=preg_replace("/$sep$/", '', $crumbs); // remove trailing separator
   return $crumbs;
 }
 

@@ -2,7 +2,7 @@
 ;----------// Theme Information
 
   name        = IIT Web-Galvin
-  description = Illinois Institute of Technology Web Adaptive Subtheme, with Galvin Library mods (copy taken 03/15/2015)
+  description = Illinois Institute of Technology Web Adaptive Subtheme, with Galvin Library mods
   core        = 7.x
   base theme  = adaptivetheme
   release     = 7.x-3.x
