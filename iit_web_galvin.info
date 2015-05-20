@@ -16,8 +16,8 @@
   stylesheets[screen][] = css/lightbox/lightbox.css
   stylesheets[screen][] = css/global.base.css
   stylesheets[screen][] = css/global.styles.css
-  stylesheets[screen][] = ../../../all/common.css
-  stylesheets[screen][] = ../../../all/iit-utility.css
+  stylesheets[screen][] = css/common.css
+  stylesheets[screen][] = css/iit-utility.css
   stylesheets[screen][] = css/iit-homepage.css
   stylesheets[screen][] = css/iit-launchpage.css
   stylesheets[screen][] = css/iit-searchpage.css
