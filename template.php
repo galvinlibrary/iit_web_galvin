@@ -57,6 +57,22 @@ function iit_web_galvin_breadcrumb($variables) {
         $breadcrumb[count($breadcrumb)-2]= str_replace("By Content", $pathArr[count($pathArr)-1], $fixTitle);
     }
     
+    if (stristr($fixTitle,"[title")!= FALSE){
+        $start=strpos($fixTitle, "href=\"");
+        $end=strpos($fixTitle, "\" class=",$start);
+        $path=substr($fixTitle,$start+6,$end-$start-6);
+        $pathArr=split("/", $path);
+//        echo "FOUND: " . htmlspecialchars($fixTitle) . "<br/> $path";
+//        print_r($pathArr);
+//        echo "<br/>correct to " . $pathArr[count($pathArr)-1];
+        if (stristr($fixTitle,"[title]")!= FALSE){
+          $breadcrumb[count($breadcrumb)-2]= str_replace("[title]", $pathArr[count($pathArr)-1], $fixTitle);
+        }
+        if (stristr($fixTitle,"[title_1]")!= FALSE){
+          $breadcrumb[count($breadcrumb)-2]= str_replace("[title_1]", $pathArr[count($pathArr)-1], $fixTitle);
+        }
+    }    
+    
     if (stristr($fixTitle,"By Subject")!= FALSE){
         $start=strpos($fixTitle, "href=\"");
         $end=strpos($fixTitle, "\" class=",$start);
