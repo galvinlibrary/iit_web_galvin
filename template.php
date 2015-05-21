@@ -26,15 +26,11 @@
  * Preprocess variables for the html template.
  */
 
-function test($variables){
-  $breadcrumb=array_unique($variables['breadcrumb']);
-  return $breadcrumb;
-}
 
 function iit_web_galvin_breadcrumb($variables) {
   $sep = ' &raquo; '; // >> separator
-  $breadcrumb=test($variables);
-  
+  $breadcrumb=array_unique($variables['breadcrumb']);
+
   if (count($breadcrumb)<=1) {
     return "<div id=\"breadcrumb\">&nbsp;</div>"; // return empty breadcrumb div so that h1 tag doesn't float up
   }
