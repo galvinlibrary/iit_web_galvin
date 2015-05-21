@@ -27,13 +27,16 @@
  */
 
 function fix_title($breadcrumb, $fixTitle, $wrongTitle){
+  $debug=false;
   $start=strpos($fixTitle, "href=\"");
   $end=strpos($fixTitle, "\" class=",$start);
   $path=substr($fixTitle,$start+6,$end-$start-6);
   $pathArr=split("/", $path);
-//        echo "FOUND: " . htmlspecialchars($fixTitle) . "<br/> $path";
-//        print_r($pathArr);
-//        echo "<br/>correct to " . $pathArr[count($pathArr)-1];
+  if($debug){
+    echo "FOUND: " . htmlspecialchars($fixTitle) . "<br/> $path";
+    print_r($pathArr);
+    echo "<br/>correct to " . $pathArr[count($pathArr)-1];
+  }
   $breadcrumb[count($breadcrumb)-2]= str_replace($wrongTitle, $pathArr[count($pathArr)-1], $fixTitle);
   return $breadcrumb;
 }
