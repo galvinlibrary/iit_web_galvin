@@ -56,28 +56,11 @@ function iit_web_galvin_breadcrumb($variables) {
   if (count($breadcrumb)==5){//this problem only occurs for fill db record display. maybe change to path check when that's set
     $fixTitle=$breadcrumb[count($breadcrumb)-2]; // this is the problematic element given the current structure. 
     
-    // quick fixes for UX testing. Make these better functions after paths determined.
-    if (stristr($fixTitle,"By Content")!= FALSE){
-        $start=strpos($fixTitle, "href=\"");
-        $end=strpos($fixTitle, "\" class=",$start);
-        $path=substr($fixTitle,$start+6,$end-$start-6);
-        $pathArr=split("/", $path);
-//        echo "FOUND: " . htmlspecialchars($fixTitle) . "<br/> $path";
-//        print_r($pathArr);
-//        echo "<br/>correct to " . $pathArr[count($pathArr)-1];
-        $breadcrumb[count($breadcrumb)-2]= str_replace("By Content", $pathArr[count($pathArr)-1], $fixTitle);
-    }
-    
     if (stristr($fixTitle,"[title_1]")!= FALSE){
        $breadcrumb=fix_title($breadcrumb, $fixTitle, "[title_1]");
     }    
-    
-    if (stristr($fixTitle,"By Subject")!= FALSE){
-        $start=strpos($fixTitle, "href=\"");
-        $end=strpos($fixTitle, "\" class=",$start);
-        $path=substr($fixTitle,$start+6,$end-$start-6);
-        $pathArr=split("/", $path);
-        $breadcrumb[count($breadcrumb)-2]= str_replace("By Subject", $pathArr[count($pathArr)-1], $fixTitle);
+    if (stristr($fixTitle,"[title]")!= FALSE){
+       $breadcrumb=fix_title($breadcrumb, $fixTitle, "[title]");
     }    
 
   }
