@@ -54,17 +54,18 @@ function iit_web_galvin_breadcrumb($variables) {
   array_pop($breadcrumb); // remove the last element of the array, which is the static page title
   array_push($breadcrumb, '<span class="active">' . drupal_get_title() . '</span>'); // add current page title (handles context. filter from view)
 
-  if (count($breadcrumb)==5){//this problem only occurs for fill db record display. maybe change to path check when that's set
-    $fixTitle=$breadcrumb[count($breadcrumb)-2]; // this is the problematic element given the current structure. 
-    
-    if (stristr($fixTitle,"[title_1]")!= FALSE){
-       $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title_1]");
-    }    
-    if (stristr($fixTitle,"[title]")!= FALSE){
-       $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title]");
-    }    
-
+  if (count($breadcrumb)>4){
+    for ($i=3;$i<5;$i++){
+      $fixTitle=$breadcrumb[$i];
+      if (stristr($fixTitle,"[title_1]")!= FALSE){
+         $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title_1]");
+      }    
+      if (stristr($fixTitle,"[title]")!= FALSE){
+         $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title]");
+      }  
+    }
   }
+  
 /*
  * Example $breadcrumb[3]
  <span typeof="v:Breadcrumb">
