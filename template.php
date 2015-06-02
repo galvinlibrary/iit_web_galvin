@@ -26,7 +26,7 @@
  * Preprocess variables for the html template.
  */
 
-function fix_title($breadcrumb, $fixTitle, $wrongTitle){
+function iit_web_galvin_fix_title($breadcrumb, $fixTitle, $wrongTitle){
   $debug=false;
   $start=strpos($fixTitle, "href=\"");
   $end=strpos($fixTitle, "\" class=",$start);
@@ -40,6 +40,7 @@ function fix_title($breadcrumb, $fixTitle, $wrongTitle){
   $breadcrumb[count($breadcrumb)-2]= str_replace($wrongTitle, $pathArr[count($pathArr)-1], $fixTitle);
   return $breadcrumb;
 }
+
 
 
 function iit_web_galvin_breadcrumb($variables) {
@@ -57,10 +58,10 @@ function iit_web_galvin_breadcrumb($variables) {
     $fixTitle=$breadcrumb[count($breadcrumb)-2]; // this is the problematic element given the current structure. 
     
     if (stristr($fixTitle,"[title_1]")!= FALSE){
-       $breadcrumb=fix_title($breadcrumb, $fixTitle, "[title_1]");
+       $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title_1]");
     }    
     if (stristr($fixTitle,"[title]")!= FALSE){
-       $breadcrumb=fix_title($breadcrumb, $fixTitle, "[title]");
+       $breadcrumb=iit_web_galvin_fix_title($breadcrumb, $fixTitle, "[title]");
     }    
 
   }
