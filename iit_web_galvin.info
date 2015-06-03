@@ -87,6 +87,7 @@
   scripts[] = scripts/sidenav-script-min.js
   scripts[] = css/lightbox/lightbox.js
   scripts[] = scripts/full-body-slideshow.js
+  scripts[] = scripts/leisure-books.js
 
 
 ;----------// Regions
