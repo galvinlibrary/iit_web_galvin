@@ -7,43 +7,71 @@ and open the template in the editor.
     Created on : Apr 22, 2015, 3:13:37 PM
     Author     : christine
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000321}}
 .header-mimic {
   padding: 6px 4px 2px 4px;
   font-family: EconomicaBold-IIT, sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
   color: white;
-  background: rgba(102, 102, 102, 0.7); }
+  background: rgba(102, 102, 102, 0.7);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000330}}
+.header-font {
+  font-family: EconomicaBold-IIT, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #666666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000338}}
 #breadcrumb {
-  margin: 0 0 30px 0; }
-  #breadcrumb span {
-    font-size: 86%; }
+  margin: 0 0 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000340}}
+#breadcrumb span {
+  font-size: 86%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000343}}
 #iit-gf-links a.subtle-link {
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000346}}
 input#edit-keys {
-  border: 1px solid #666666; }
+  border: 1px solid #666666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000348}}
 .views-submit-button {
-  margin: -25px 0 0 20px; }
+  margin: -25px 0 0 20px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000353}}
 .database {
   margin: 10px 0px 20px;
-  border-bottom: 1px solid #cccccc; }
-  .database .title {
-    font-weight: 600;
-    margin: 0 0 .2em 0; }
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000356}}
+.database .title {
+  font-weight: 600;
+  margin: 0 0 .2em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000365}}
 .view-content table, .view-content tbody, .view-content table tr {
   border: none;
-  background: none; }
+  background: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000372}}
 tr.db-content td {
   padding: 10px 0;
-  border-bottom: 1px solid #cccccc; }
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000376}}
 tr.db-content td:first-child {
-  width: 30%; }
-
-/*# sourceMappingURL=galvin.css.map */
+  width: 30%;
+}
