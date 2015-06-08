@@ -16,11 +16,12 @@ $crimson: rgb(109,3,3);
 $red: rgb(192,12,0);
 $yellow: rgb(255,153,0);
 
+$headerFont: EconomicaBold-IIT, sans-serif;
 
 // General look
 .header-mimic{
   padding: 6px 4px 2px 4px;
-  font-family: EconomicaBold-IIT, sans-serif;
+  font-family: $headerFont;
   font-size: 1.2em;  
   text-transform: uppercase;
   color: white;
@@ -28,7 +29,7 @@ $yellow: rgb(255,153,0);
 }
 
 .header-font{
-  font-family: EconomicaBold-IIT, sans-serif;
+  font-family: $headerFont;
   text-transform: uppercase;
   font-size: 1.2em;
   color: #666666;
