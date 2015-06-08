@@ -66,6 +66,9 @@ input#edit-keys {border: 1px solid $medGrey;}
   }  
 }
 
+.attachment-before {
+  margin: 0 0 3em 0;
+}
 
 // this is not database-specific, but cannot apply an id or class to a grid
 .view-content{
