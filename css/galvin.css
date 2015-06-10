@@ -121,3 +121,9 @@ tr.db-content td:first-child {
     float: right;
   }
 }
+@media only screen and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003122}}
+  #main-content {
+    padding-right: 2em;
+  }
+}
