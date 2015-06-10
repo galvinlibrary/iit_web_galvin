@@ -17,6 +17,7 @@ $red: rgb(192,12,0);
 $yellow: rgb(255,153,0);
 
 $headerFont: EconomicaBold-IIT, sans-serif;
+$borderColor: $ltGrey;
 
 // General look
 .header-mimic{
@@ -85,3 +86,34 @@ tr.db-content {
   }
   td:first-child {width: 30%;}
 }
+
+//have this outside media query for white space
+  .content-header-columns .view-content{
+    clear:both;
+    margin-bottom:3em;
+  }
+ 
+  .content-header-columns .view-id-databases_subject_list {
+    border: 1px solid $borderColor;
+    padding: 1em;
+    margin-bottom: 1.4em;
+    .view-content{
+      margin:0;
+    }
+}
+  
+@media only screen and (min-width:600px){
+  
+ //create columns with two view headers (such as dbs by subject)
+  .content-header-columns .column {
+    width: 44%;
+    float: left;
+    margin-right: .6em;
+  }
+
+  .content-header-columns .view-id-databases_subject_list {
+    width: 44%;
+    float: right;
+  }
+}// end media query
+
