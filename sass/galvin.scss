@@ -127,15 +127,14 @@ input#edit-keys {border: 1px solid $medGrey;}
   .col-4{
     margin: 0 0 2em 0;
   }
-.view-grouping-header{
-    clear:both;
-    @include mimic-H3;
-  }
+  .view-grouping-header{
+      clear:both;
+      @include mimic-H3;
+    }
    h3{
      clear:both;
      @include mimic-H4;
    }
-
 }
 
 @media only screen and (min-width:980px){
@@ -143,14 +142,13 @@ input#edit-keys {border: 1px solid $medGrey;}
       margin:0 0 4em 0;
     .col{
       float:left;
-      width: 30%;
-    }
-    .col + .col + .col, .col + .col + .col + .col{
-      width:20%;
+//      margin: 0 10px 0 0;
+      width:24%;
     }
     .col:first-child{
       clear:both;
     }
+
   }
   
 }
