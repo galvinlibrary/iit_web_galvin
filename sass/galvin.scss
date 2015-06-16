@@ -59,6 +59,33 @@ input#edit-keys {border: 1px solid $medGrey;}
 .search-item-result{
   margin: 0.8em 0px;
 }
+
+//create table-like elements using divs that are responsive:
+.col-4{
+    margin: 0 0 2em 0;
+}
+@media only screen and (min-width:980px){
+  .col-4{
+      margin:0 0 4em 0;
+    .col{
+      float:left;
+      width: 30%;
+    }
+    .col + .col + .col, .col + .col + .col + .col{
+      width:20%;
+    }
+    .col:first-child{
+      clear:both;
+    }
+  }
+  .div-col {
+    .view-grouping-header, h3{
+      clear:both;
+    }
+  }
+  
+}
+
 // E-Resource customizations
 
 .database {
