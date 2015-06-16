@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : Apr 22, 2015, 3:13:37 PM
     Author     : christine
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000385}}
 .header-mimic {
   padding: 6px 4px 2px 4px;
   font-family: EconomicaBold-IIT, sans-serif;
@@ -17,7 +17,7 @@ and open the template in the editor.
   background: rgba(102, 102, 102, 0.7);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000394}}
 .header-font {
   font-family: EconomicaBold-IIT, sans-serif;
   text-transform: uppercase;
@@ -25,138 +25,175 @@ and open the template in the editor.
   color: #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003102}}
 #breadcrumb {
   margin: 0 0 30px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003104}}
 #breadcrumb span {
   font-size: 86%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003107}}
 #iit-gf-links a.subtle-link {
   color: #222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003111}}
 .sidebar p {
   margin: 0 0 .3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003116}}
 input#edit-keys {
   border: 1px solid #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003118}}
 .views-submit-button {
   margin: -25px 0 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003121}}
 .search-item-result {
   margin: 0.8em 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000364}}
-.col-4 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003127}}
+.div-col .col-4 {
   margin: 0 0 2em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003130}}
+.div-col .view-grouping-header {
+  clear: both;
+  -webkit-font-smoothing: antialiased;
+  color: #c00c00;
+  display: block;
+  font-family: oswald, sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 34.5px;
+  margin-bottom: 5.75px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 23px;
+  text-transform: uppercase;
+  width: 743px;
+  word-wrap: break-word;
+  zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003134}}
+.div-col h3 {
+  clear: both;
+  -webkit-font-smoothing: antialiased;
+  color: #cc0000;
+  display: block;
+  font-family: oswald, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  height: 27px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-bottom: 4.5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 18px;
+  text-transform: uppercase;
+  width: 743px;
+  word-wrap: break-word;
+  zoom: 1;
 }
 
 @media only screen and (min-width: 980px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003142}}
   .col-4 {
     margin: 0 0 4em 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003144}}
   .col-4 .col {
     float: left;
     width: 30%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003148}}
   .col-4 .col + .col + .col, .col-4 .col + .col + .col + .col {
     width: 20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003151}}
   .col-4 .col:first-child {
     clear: both;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000382}}
-  .div-col .view-grouping-header, .div-col h3 {
-    clear: both;
-  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003160}}
 .database {
   margin: 10px 0px 20px;
   border-bottom: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003163}}
 .database .title {
   font-weight: 600;
   margin: 0 0 .2em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003169}}
 .attachment-before {
   margin: 0 0 3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003175}}
 .view-content table, .view-content tbody, .view-content table tr {
   border: none;
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003182}}
 tr.db-content td {
   padding: 10px 0;
   border-bottom: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003186}}
 tr.db-content td:first-child {
   width: 30%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003190}}
 .content-header-columns .view-content {
   clear: both;
   margin-bottom: 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003195}}
 .content-header-columns .view-id-databases_subject_list {
   border: 1px solid #888888;
   padding: 1em;
   margin-bottom: 1.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003199}}
 .content-header-columns .view-id-databases_subject_list .view-header p {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003200}}
 .content-header-columns .view-id-databases_subject_list .view-content {
   margin: 0;
 }
 
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003208}}
   .content-header-columns .column {
     width: 44%;
     float: left;
     margin-right: .6em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003214}}
   .content-header-columns .view-id-databases_subject_list {
     width: 44%;
     float: right;
   }
 }
 @media only screen and (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003221}}
   #main-content {
     padding-right: 2em;
   }
