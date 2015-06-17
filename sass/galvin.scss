@@ -92,10 +92,17 @@ $border: 1px solid $ltGrey;
   
   //search
   #edit-keys{
-    width:100%;
+    width:110px;
+    float:left;
+    padding:.25em 0;
   }
+  
+  .views-exposed-form .views-exposed-widget .form-submit {
+    @include sidebar-search-button;
+  }
+  
   .form-submit{
-    @include mimic-button;
+//    @include mimic-button;
   }
   
   // emergency message
