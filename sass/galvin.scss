@@ -124,33 +124,22 @@ input#edit-keys {border: 1px solid $medGrey;}
 
 //create table-like elements using divs that are responsive:
 .div-col {
-  .col-4{
+  .col-2{
     margin: 0 0 2em 0;
   }
   .view-grouping-header{
       clear:both;
-      @include mimic-H3;
+      @include mimic-H2;
     }
-   h3{
-     clear:both;
-     @include mimic-H4;
-   }
 }
 
-@media only screen and (min-width:980px){
-  .col-4{
-      margin:0 0 4em 0;
-    .col{
-      float:left;
-//      margin: 0 10px 0 0;
-      width:24%;
+@media only screen and (min-width:768px){
+  .two-columns{
+    .col1 {
+      width: 70%;
+      float: left;
     }
-    .col:first-child{
-      clear:both;
-    }
-
   }
-  
 }
 
 // E-Resource customizations
