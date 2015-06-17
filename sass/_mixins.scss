@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : June 17, 2015, 3:13:37 PM
+    Author     : christine
+*/
+@mixin mimic-H2{
+  -webkit-font-smoothing: antialiased;
+  border-bottom-color: $red;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: rgb(204, 0, 0);
+  display: block;
+  font-family: oswald, sans-serif;
+  font-size: 31px;
+  font-weight: 300;
+  height: 46px;
+  line-height: 46.5px;
+  margin-bottom: 24.7999992370605px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 6.19999980926514px;
+  padding-bottom: 3.09999990463257px;
+  width: 743px;
+  word-wrap: break-word;
+  zoom: 1;  
+}
+
+@mixin mimic-H3{
+  -webkit-font-smoothing: antialiased;
+  color: $red;
+  display: block;
+  font-family: oswald, sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  font-weight: 300;
+  border:none;
+  letter-spacing: 1px;
+  line-height: 34.5px;
+  margin-bottom: 5.75px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 23px;
+  text-transform: uppercase;
+  width: 743px;
+  word-wrap: break-word;
+  zoom: 1;  
+}
+
+@mixin mimic-H4{
+  -webkit-font-smoothing: antialiased;
+  color: rgb(204, 0, 0);
+  display: block;
+  font-family: oswald, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  height: 27px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-bottom: 4.5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 18px;
+  text-transform: uppercase;
+  width: 743px;
+  word-wrap: break-word;
+  zoom: 1;
+}
