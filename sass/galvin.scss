@@ -80,6 +80,7 @@ input#edit-keys {border: 1px solid $borderColor;}
 }
 
 //create table-like elements using divs that are responsive:
+// currently used on staff page
 .div-col {
   .col-2{
     margin: 0 0 2em 0;
@@ -132,14 +133,6 @@ input#edit-keys {border: 1px solid $borderColor;}
     border:none;
     background:none;
   }
-}
-
-tr.db-content {
-  td{  
-    padding:10px 0;
-    border-bottom: 1px solid #cccccc;
-  }
-  td:first-child {width: 30%;}
 }
 
 //have this outside media query for white space
