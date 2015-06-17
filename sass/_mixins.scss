@@ -9,10 +9,10 @@ and open the template in the editor.
 */
 @mixin mimic-H2{
   -webkit-font-smoothing: antialiased;
-  border-bottom-color: $red;
+  border-bottom-color: $headerColors;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: rgb(204, 0, 0);
+  color: $headerColors;
   display: block;
   font-family: oswald, sans-serif;
   font-size: 31px;
@@ -31,7 +31,7 @@ and open the template in the editor.
 
 @mixin mimic-H3{
   -webkit-font-smoothing: antialiased;
-  color: $red;
+  color: $headerColors;
   display: block;
   font-family: oswald, sans-serif;
   font-size: 23px;
@@ -52,7 +52,7 @@ and open the template in the editor.
 
 @mixin mimic-H4{
   -webkit-font-smoothing: antialiased;
-  color: rgb(204, 0, 0);
+  color: $headerColors;
   display: block;
   font-family: oswald, sans-serif;
   font-size: 18px;

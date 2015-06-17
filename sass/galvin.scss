@@ -7,7 +7,6 @@ and open the template in the editor.
     Created on : Apr 22, 2015, 3:13:37 PM
     Author     : christine
 */
-@import "_mixins.scss";
 
 // IIT Web colors
 $ltGrey: rgb(136,136,136);
@@ -18,6 +17,7 @@ $red: rgb(192,12,0);
 $yellow: rgb(255,153,0);
 $white: rgb(255,255,255);
 
+$headerFont: EconomicaBold-IIT, sans-serif;
 $headerColors: $yellow;
 $linkColor: $crimson;
 
@@ -30,9 +30,16 @@ $sideBarEmergencyFont: $white;
 $breadcrumbLink: $medGrey;
 $breadcrumbActive: $yellow;
 
-$headerFont: EconomicaBold-IIT, sans-serif;
 $borderColor: $ltGrey;
 
+@import "_mixins.scss"; // some mixins use colors, so import after variables
+
+
+#main-content{
+  h1, h2, h3, h4, h5, h6 {
+    color: $headerColors;
+  }
+}
 
 #breadcrumb{
   margin: 0 0 30px 0;
