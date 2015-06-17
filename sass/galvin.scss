@@ -46,6 +46,7 @@ $yellow: rgb(255,153,0);
   font-size: 23px;
   font-weight: 300;
   font-weight: 300;
+  border:none;
   letter-spacing: 1px;
   line-height: 34.5px;
   margin-bottom: 5.75px;
@@ -131,6 +132,18 @@ input#edit-keys {border: 1px solid $medGrey;}
       clear:both;
       @include mimic-H2;
     }
+    
+  .view-grouping-content .view-grouping .view-grouping-header {
+    @include mimic-H3;
+  }    
+  .view-grouping-content {
+      h3{
+        @include mimic-H4;
+      }
+      strong{
+        color:$medGrey;
+      }
+  }
 }
 
 @media only screen and (min-width:768px){
