@@ -21,9 +21,12 @@ $headerFont: EconomicaBold-IIT, sans-serif;
 $headerColors: $yellow;
 $linkColor: $crimson;
 
+$sidebarNormalTitleColor: $medGrey;
 $sideBarNoticeBackground: $yellow;
 $sideBarNoticeFont: $white;
 $sideBarRegBorder: $ltGrey;
+$sidebarAskBackground: $crimson;
+$sidebarAskFont: $white;
 $sideBarEmergencyBackground: $red;
 $sideBarEmergencyFont: $white;
 
@@ -31,7 +34,7 @@ $breadcrumbLink: $medGrey;
 $breadcrumbLinkHover: $crimson;
 $breadcrumbActive: $headerColors;
 
-$borderColor: $ltGrey;
+$border: 1px solid $ltGrey;
 
 @import "_mixins.scss"; // some mixins use colors, so import after variables
 
@@ -48,13 +51,61 @@ $borderColor: $ltGrey;
 
 //sidebar elements
 .sidebar{
+  .block {
+    border: $border;
+      .block-title {color:$sidebarNormalTitleColor;}
+  }
    a{
     color:$linkColor;
+  }
+  .block-title, .block-content{
+    padding:6px;
   }
   #block-block-19 a{ // contact links
     font-weight: 600;
   }
+  
+  //hours
+  #block-iit-display-hours-hours{
+    border:none;
+    background:$sideBarNoticeBackground;
+    .block-title, p, a {
+      color:$sideBarNoticeFont;
+    }
+    p{
+      line-height:1.5em;
+    }
+    .open, .closed{
+      font-family: $headerFont;
+      font-weight:800;
+      font-size: 1.7em;
+    }
+  }
+  
+  //help
+  #block-block-19{
+    .block-title{
+      background:$sidebarAskBackground;
+      color:$sidebarAskFont;
+    }
+  }
+  
+  //search
+  #edit-keys{
+    width:100%;
+  }
+  .form-submit{
+    @include mimic-button;
+  }
+  
+  // emergency message
+  #block-block-15{
+    border:none;
+    background: $sideBarEmergencyBackground;
+    .block-title, p, a {color: $sideBarEmergencyFont;}
+  }
 }
+
 
 
 #breadcrumb{
@@ -79,11 +130,6 @@ $borderColor: $ltGrey;
 .sidebar p{
   margin:0 0 .3em 0;
 }
-
-//form items
-input#edit-keys {border: 1px solid $borderColor;}
-
-.views-submit-button{margin: -25px 0 0 20px;}
 
 // search results page
 .search-item-result{
@@ -127,7 +173,7 @@ input#edit-keys {border: 1px solid $borderColor;}
 
 .database {
   margin: 10px 0px 20px;
-  border-bottom: 1px solid $borderColor;
+  border-bottom: $border;
   .title {
     font-weight:600;
     margin:0 0 .2em 0;
@@ -153,7 +199,7 @@ input#edit-keys {border: 1px solid $borderColor;}
   }
  
   .content-header-columns .view-id-databases_subject_list {
-    border: 1px solid $borderColor;
+    border: $border;
     padding: 1em;
     margin-bottom: 1.4em;
     .view-header p{margin:0;}
