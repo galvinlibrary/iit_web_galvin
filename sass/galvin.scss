@@ -28,6 +28,7 @@ $sideBarEmergencyBackground: $red;
 $sideBarEmergencyFont: $white;
 
 $breadcrumbLink: $medGrey;
+$breadcrumbLinkHover: $crimson;
 $breadcrumbActive: $headerColors;
 
 $borderColor: $ltGrey;
@@ -47,6 +48,12 @@ $borderColor: $ltGrey;
   .active{
     color: $breadcrumbActive;
     font-weight:600;
+  }
+  a{
+    color:$breadcrumbLink;
+  }
+  a:hover{
+    color:$breadcrumbLinkHover;
   }
 }
 
