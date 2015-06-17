@@ -28,7 +28,7 @@ $sideBarEmergencyBackground: $red;
 $sideBarEmergencyFont: $white;
 
 $breadcrumbLink: $medGrey;
-$breadcrumbActive: $yellow;
+$breadcrumbActive: $headerColors;
 
 $borderColor: $ltGrey;
 
@@ -44,6 +44,10 @@ $borderColor: $ltGrey;
 #breadcrumb{
   margin: 0 0 30px 0;
   span{font-size:86%;}
+  .active{
+    color: $breadcrumbActive;
+    font-weight:600;
+  }
 }
 
 #iit-gf-links a.subtle-link{color: #222;}
