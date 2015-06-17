@@ -30,26 +30,8 @@ $sideBarEmergencyFont: $white;
 $breadcrumbLink: $medGrey;
 $breadcrumbActive: $yellow;
 
-
 $headerFont: EconomicaBold-IIT, sans-serif;
 $borderColor: $ltGrey;
-
-// General look
-.header-mimic{
-  padding: 6px 4px 2px 4px;
-  font-family: $headerFont;
-  font-size: 1.2em;  
-  text-transform: uppercase;
-  color: white;
-  background: rgba(102,102,102,.7); //mdGrey 
-}
-
-.header-font{
-  font-family: $headerFont;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  color: #666666;
-}
 
 
 #breadcrumb{
