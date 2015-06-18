@@ -213,6 +213,12 @@ $border: 1px solid $ltGrey;
       margin:0;
     }
 }
+
+.formats {
+  td:first-child{
+    width:40%;
+  }
+}
   
 @media only screen and (min-width:600px){
   
