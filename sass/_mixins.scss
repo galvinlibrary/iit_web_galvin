@@ -66,3 +66,17 @@ and open the template in the editor.
   float:right;
   border:none;
 }
+
+@mixin mimic-button{
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.06667em;
+  font-weight: bold;
+  padding: .25em .5em;
+  display: inline-block;
+  margin: .4em 0;  
+  border:none;  
+}

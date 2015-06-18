@@ -68,10 +68,6 @@ $border: 1px solid $ltGrey;
     padding:6px;
   }
   
-  .social-media-images img {
-    width:16%;
-  }
-  
   //hours
   #block-iit-display-hours-hours{
     border:none;
@@ -95,6 +91,16 @@ $border: 1px solid $ltGrey;
       background:$sidebarAskBackground;
       color:$sidebarAskFont;
     }
+  }
+  
+  //news
+  .social-media-images img {
+    width:16%;
+  }
+  
+  .news a{
+    font-size:.9em;
+    line-height:1;
   }
   
   //search
@@ -191,6 +197,10 @@ $border: 1px solid $ltGrey;
   .title {
     margin:0 0 .2em 0;
   }  
+}
+
+#main-content a.button{
+  @include mimic-button;
 }
 
 .attachment-before {
