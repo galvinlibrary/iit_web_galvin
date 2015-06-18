@@ -52,6 +52,9 @@ $border: 1px solid $ltGrey;
     color:$linkColor;
     font-weight: 600;
   }
+  a.button{
+    @include mimic-button;
+  }
   img{
     max-width:100%;
   }
@@ -202,10 +205,6 @@ $border: 1px solid $ltGrey;
   .title {
     margin:0 0 .2em 0;
   }  
-}
-
-#main-content a.button{
-  @include mimic-button;
 }
 
 .attachment-before {
