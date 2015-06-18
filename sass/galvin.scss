@@ -50,6 +50,9 @@ $border: 1px solid $ltGrey;
     color:$linkColor;
     font-weight: 600;
   }
+  img{
+    max-width:100%;
+  }
 }
 
 //sidebar elements
@@ -63,6 +66,10 @@ $border: 1px solid $ltGrey;
   }
   .block-title, .block-content{
     padding:6px;
+  }
+  
+  .social-media-images img {
+    width:16%;
   }
   
   //hours
