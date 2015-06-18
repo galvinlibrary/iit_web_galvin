@@ -149,16 +149,12 @@ and open the template in the editor.
   color: #ff9900;
   display: block;
   font-family: oswald, sans-serif;
-  font-size: 31px;
+  font-size: 2em;
   font-weight: 300;
   height: 46px;
-  line-height: 46.5px;
-  margin-bottom: 24.7999992370605px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 6.19999980926514px;
-  padding-bottom: 3.09999990463257px;
-  width: 743px;
+  line-height: 1.5;
+  margin: .2em 0 .8em 0;
+  padding-bottom: .1em;
   word-wrap: break-word;
   zoom: 1;
 }
