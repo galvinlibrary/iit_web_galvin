@@ -17,8 +17,6 @@ and open the template in the editor.
   font-family: oswald, sans-serif;
   font-size: 2em;
   font-weight: 300;
-  height: 46px;
-  line-height:1.5;
   margin: .2em 0 .8em 0;
   padding-bottom: .1em;
   word-wrap: break-word;
@@ -34,7 +32,6 @@ and open the template in the editor.
   font-weight: 300;
   border:none;
   letter-spacing: 1px;
-  line-height: 1.5;
   margin:1em 0 .25em 0;
   text-transform: uppercase;
   word-wrap: break-word;
@@ -46,17 +43,11 @@ and open the template in the editor.
   color: $headerColors;
   display: block;
   font-family: oswald, sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
+  margin:1em 0 0.25em 0;;
   font-weight: 300;
-  height: 27px;
   letter-spacing: 1px;
-  line-height: 27px;
-  margin-bottom: 4.5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 18px;
   text-transform: uppercase;
-  width: 743px;
   word-wrap: break-word;
   zoom: 1;
 }
