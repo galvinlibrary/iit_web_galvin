@@ -31,7 +31,7 @@ and open the template in the editor.
   font-weight: 600;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000355}}
-#main-content a.button, .sidebar a.button {
+#main-content a.iit-button, .sidebar a.iit-button {
   color: #fff;
   background-color: #666;
   text-decoration: none;
