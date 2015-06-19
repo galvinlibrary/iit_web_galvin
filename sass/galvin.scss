@@ -52,7 +52,7 @@ $border: 1px solid $ltGrey;
     color:$linkColor;
     font-weight: 600;
   }
-  a.iit-button{
+  a.iit-button, input.iit-button{
     @include mimic-button;
   }
   img{
