@@ -119,11 +119,8 @@ $border: 1px solid $ltGrey;
   }
   
   .views-exposed-form .views-exposed-widget .form-submit {
-    @include sidebar-search-button;
-  }
-  
-  .form-submit{
-//    @include mimic-button;
+    @include mimic-button;
+    float:right;
   }
   
   // emergency message
