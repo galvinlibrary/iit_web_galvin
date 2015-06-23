@@ -71,7 +71,8 @@ $border: 1px solid $ltGrey;
   }
 }
 
-//sidebar elements
+///////////
+//SIDEBAR ELEMENTS
 .sidebar{
   .block {
     border: $border;
@@ -84,7 +85,7 @@ $border: 1px solid $ltGrey;
     padding:6px;
   }
   
-  //hours
+  //hours 
   #block-iit-display-hours-hours{
     border:none;
     background:$sideBarNoticeBackground;
@@ -137,9 +138,11 @@ $border: 1px solid $ltGrey;
     background: $sideBarEmergencyBackground;
     .block-title, p, a {color: $sideBarEmergencyFont;}
   }
+  
+  p{
+   margin:0 0 .3em 0;
+  }
 }
-
-
 
 #breadcrumb{
   margin: 0 0 30px 0;
@@ -160,9 +163,6 @@ $border: 1px solid $ltGrey;
 
 //sidebar
 
-.sidebar p{
-  margin:0 0 .3em 0;
-}
 
 // search results page
 .search-item-result{
