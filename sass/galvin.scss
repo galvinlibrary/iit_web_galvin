@@ -162,10 +162,21 @@ $border: 1px solid $ltGrey;
 
 //sidebar
 
+////////////////
+// PAGE-SPECIFIC ITEMS
 
 // search results page
 .search-item-result{
   margin: 0.8em 0px;
+}
+
+#hours-page {
+//  font-size:1.5em;
+  .col1{
+    color: $medGrey;
+    font-weight:600;
+  }
+  .col2{margin:0 0 .4em 0;}
 }
 
 //create table-like elements using divs that are responsive:
@@ -199,6 +210,7 @@ $border: 1px solid $ltGrey;
       float: left;
     }
   }
+  #hours-page .col1{width:30%;}
 }
 
 // E-Resource customizations
