@@ -43,8 +43,11 @@ $border: 1px solid $ltGrey;
   h1, h2, h3, h4, h5, h6 {
     color: $headerColors;
   }
-  
   .bump-down{margin-top:1em;}
+  
+  .group-with-next{
+    margin:2em 0 0 0;
+  }
 }
 
 #main-content, .sidebar{
