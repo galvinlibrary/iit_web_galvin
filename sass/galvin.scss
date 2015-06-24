@@ -63,6 +63,9 @@ $border: 1px solid $ltGrey;
   a.iit-button, input.iit-button{
     @include mimic-button;
   }
+  a.alt-link{
+    @include alternate-link;
+  }
   img{
     max-width:100%;
   }

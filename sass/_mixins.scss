@@ -66,4 +66,13 @@ and open the template in the editor.
   border:none;
 }
 
+@mixin alternate-link {
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: bold;
+  margin:0;
+  border:none;
+}
 
