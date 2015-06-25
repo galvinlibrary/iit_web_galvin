@@ -44,6 +44,8 @@ $border: 1px solid $ltGrey;
 
 @import "_mixins.scss"; // some mixins use colors, so import after variables
 
+.clear {clear:both;}
+
 //main page elements
 #main-content{
   h1, h2, h3, h4, h5, h6 {
@@ -173,7 +175,7 @@ $border: 1px solid $ltGrey;
 
 // Sub Navigation
 
-#sub-nav {
+#subnav{
 background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
 float: left;
 font-family: 'Open Sans', sans-serif;
@@ -184,11 +186,14 @@ word-wrap: break-word;
 margin:1em 0 2em 0;
 padding:0;
 position: relative;
+list-style: none;
   li{
     float:left;
+    line-height: 1.5em;
     a {
       color: $subNavLinkColor;
       padding: .2em 1em;
+      font-weight:normal;
     }
     a:hover{
       text-decoration: none;
@@ -203,6 +208,15 @@ position: relative;
   } 
 }
 
+
+  .no-float {
+    border-top: 1px solid $dkGrey;
+    border-bottom: 1px solid $dkGrey;
+    li{ 
+      font-size: 1.2em;
+      width:80%;
+    }
+  }
 
 
 
