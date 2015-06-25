@@ -34,6 +34,12 @@ $breadcrumbLink: $medGrey;
 $breadcrumbLinkHover: $crimson;
 $breadcrumbActive: $headerColors;
 
+$subNavLinkColor: $medGrey;
+$subNavActiveLinkColor: $white;
+$subNavActiveBackgroundColor: $yellow;
+$subNavHoverLinkColor: $white;
+$subNavHoverBackgroundColor: #cccccc;
+
 $border: 1px solid $ltGrey;
 
 @import "_mixins.scss"; // some mixins use colors, so import after variables
@@ -180,17 +186,17 @@ position: relative;
   li{
     float:left;
     a {
-      color: rgb(102, 102, 102);
+      color: $subNavLinkColor;
       padding: .2em 1em;
     }
     a:hover{
       text-decoration: none;
-      background-color: #ccc;
-      color: #fff;  
+      background-color: $subNavHoverBackgroundColor;
+      color: $subNavHoverLinkColor;  
     }
     a.active{
-      background-color: #F90;
-      color: #fff;
+      background-color: $subNavActiveBackgroundColor;
+      color: $subNavActiveLinkColor;
       font-weight: bold;  
     }
   } 
