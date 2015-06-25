@@ -210,7 +210,7 @@ and open the template in the editor.
 #subnav li {
   float: left;
   line-height: 1.5em;
-  margin: .4em 0;
+  margin: .2em 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003194}}
 #subnav li a {
