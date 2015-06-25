@@ -76,3 +76,11 @@ and open the template in the editor.
   border:none;
 }
 
+@mixin subnav-mobile{
+    border-top: 1px solid $dkGrey;
+    border-bottom: 1px solid $dkGrey;
+    li{ 
+      font-size: 1.2em;
+      width: 100%;
+    }  
+}

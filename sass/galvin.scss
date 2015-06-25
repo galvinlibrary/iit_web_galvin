@@ -208,14 +208,12 @@ list-style: none;
   } 
 }
 
-
-  .no-float {
-    border-top: 1px solid $dkGrey;
-    border-bottom: 1px solid $dkGrey;
-    li{ 
-      font-size: 1.2em;
-      width:80%;
-    }
+  .nav-no-float {
+    @include subnav-mobile;
+  }
+  
+  @media only screen and (max-width:600px){
+    @include subnav-mobile;
   }
 
 
