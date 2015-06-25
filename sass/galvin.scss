@@ -156,15 +156,16 @@ $border: 1px solid $ltGrey;
 #breadcrumb{
   margin: 0 0 30px 0;
   span{font-size:86%;}
-  .active{
-    color: $breadcrumbActive;
-    font-weight:600;
-  }
   a{
     color:$breadcrumbLink;
+    font-weight:normal;
   }
   a:hover{
     color:$breadcrumbLinkHover;
+  }  
+  .active{
+    color: $breadcrumbActive;
+    font-weight:600;
   }
 }
 
@@ -176,7 +177,7 @@ $border: 1px solid $ltGrey;
 background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
 float: left;
 font-family: 'Open Sans', sans-serif;
-font-size: .9em;
+font-size: .86em;
 text-decoration: none;
 text-transform: uppercase;
 word-wrap: break-word;
