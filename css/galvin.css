@@ -410,3 +410,7 @@ and open the template in the editor.
     padding-right: 2em;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003358}}
+nav#iit-gh-primary-nav li:last-child {
+  background: #222222;
+}

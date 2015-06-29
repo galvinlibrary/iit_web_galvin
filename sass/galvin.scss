@@ -353,3 +353,11 @@ list-style: none;
     padding-right: 2em;
   } // breathing room for sidebar 
 }
+
+// M&C Request: highlight IIT home button
+nav#iit-gh-primary-nav li:last-child{
+  background:#222222;
+  #iit-gh-menu-iit-home{
+//    color:$yellow;
+  }
+}
