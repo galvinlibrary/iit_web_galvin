@@ -95,6 +95,7 @@ $border: 1px solid $ltGrey;
   a.iit-button, input.iit-button{
     @include mimic-button;
   }
+
   a.alt-link{
     @include alternate-link;
   }
@@ -104,6 +105,7 @@ $border: 1px solid $ltGrey;
   strong {
     color:$dkGrey;
   }
+  .form-item .form-text {border: 1px solid $medGrey;}
 }
 
 ///////////
@@ -251,6 +253,16 @@ list-style: none;
 .search-item-result{
   margin: 0.8em 0px;
 }
+
+// db search
+  .db-search {
+    .form-item input{
+      width:20em;
+    }
+    input#edit-submit-databases-brief{
+      @include mimic-button;
+    }
+  }
 
 #hours-page {
 //  font-size:1.5em;
