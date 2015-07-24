@@ -66,6 +66,25 @@ $border: 1px solid $ltGrey;
     p {margin:0;}
     p:first-child{font-weight:600;}
   }
+  
+  //articles (not sidebar)
+  .news{
+    img{float:left;}
+    .view-content div{
+      clear:both;// for image flaot
+      margin-bottom:2em;
+    }
+  }
+  
+  .field-name-field-video-embed, .field-name-field-pdf-viewer { //spacing for video and PDF embeds
+      margin: 1em 0;
+  }  
+  
+  .img-border{
+    border: 1px solid $medGrey;
+    padding: 1em;
+  }
+  
 }
 
 #main-content, .sidebar{
@@ -240,15 +259,6 @@ list-style: none;
     font-weight:600;
   }
   .col2{margin:0 0 .4em 0;}
-}
-
-//articles
-.news{
-  img{float:left;}
-  .view-content div{
-    clear:both;// for image flaot
-    margin-bottom:2em;
-  }
 }
 
 //create table-like elements using divs that are responsive:
