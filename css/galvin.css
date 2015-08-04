@@ -145,7 +145,7 @@ and open the template in the editor.
 .sidebar #block-iit-display-hours-hours .open, .sidebar #block-iit-display-hours-hours .closed {
   font-family: EconomicaBold-IIT, sans-serif;
   font-weight: 800;
-  font-size: 1.7em;
+  font-size: 1.4em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003141}}
 .sidebar #block-block-19 .block-title {
