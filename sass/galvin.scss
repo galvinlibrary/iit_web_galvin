@@ -29,6 +29,7 @@ $sidebarAskBackground: $crimson;
 $sidebarAskFont: $white;
 $sideBarEmergencyBackground: $red;
 $sideBarEmergencyFont: $white;
+$sideBarLineHeight: 1.2em;
 
 $breadcrumbLink: $medGrey;
 $breadcrumbLinkHover: $crimson;
@@ -151,7 +152,7 @@ $border: 1px solid $ltGrey;
   
   .news a{
     font-size:.9em;
-    line-height:1;
+    line-height:$sideBarLineHeight;
   }
   
   //search
@@ -175,7 +176,7 @@ $border: 1px solid $ltGrey;
   
   p{
    margin:0 0 .3em 0;
-   line-height:1.2em;
+   line-height:$sideBarLineHeight;
   }
 }
 
