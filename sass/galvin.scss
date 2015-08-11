@@ -93,7 +93,7 @@ $border: 1px solid $ltGrey;
     color:$linkColor;
     font-weight: 600;
   }
-  a.iit-button, input.iit-button{
+  a.iit-button, input.iit-button, input#edit-submit-site-search-complex-{
     @include mimic-button;
   }
 
@@ -393,3 +393,4 @@ nav#iit-gh-primary-nav li:last-child{
 //    color:$yellow;
   }
 }
+
