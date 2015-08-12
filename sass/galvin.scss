@@ -93,7 +93,7 @@ $border: 1px solid $ltGrey;
     color:$linkColor;
     font-weight: 600;
   }
-  a.iit-button, input.iit-button, input#edit-submit-site-search-complex-{
+  a.iit-button, input.iit-button, #edit-submit-site-search-complex-{
     @include mimic-button;
   }
 

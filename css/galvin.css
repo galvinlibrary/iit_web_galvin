@@ -80,7 +80,7 @@ and open the template in the editor.
   font-weight: 600;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000396}}
-#main-content a.iit-button, #main-content input.iit-button, #main-content input#edit-submit-site-search-complex-, .sidebar a.iit-button, .sidebar input.iit-button, .sidebar input#edit-submit-site-search-complex- {
+#main-content a.iit-button, #main-content input.iit-button, #main-content #edit-submit-site-search-complex-, .sidebar a.iit-button, .sidebar input.iit-button, .sidebar #edit-submit-site-search-complex- {
   color: #fff;
   background-color: #666;
   text-decoration: none;
