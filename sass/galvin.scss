@@ -86,6 +86,15 @@ $border: 1px solid $ltGrey;
     padding: 1em;
   }
   
+  p.blockquote { // Drupal's editor includes p tags when rendering the <blockquote> element.
+      margin: 0 0 1em 0;
+      padding: 1.2em;
+      background: #eee;
+      border-left: 6px solid $yellow;
+      font-size: 1.4em;
+      font-style: italic;
+  }  
+  
 }
 
 #main-content, .sidebar{
