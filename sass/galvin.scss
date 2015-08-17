@@ -377,8 +377,54 @@ list-style: none;
     width:40%;
   }
 }
+// home page slideshow
+#main-content {
+  .flex-direction-nav a{
+    overflow:visible;
+    color:white;
+    font-weight:normal;
+    }
+  .home-slide-text h1{
+     line-height:1em;
+   }
+   
+   .flexslider{
+     margin:0;
+   }
+}
+
+@media only screen and (max-width:600px){
+  .flex-direction-nav a{
+    top:80%;
+    margin: 0 0 0 20px;
+  }
+}
   
 @media only screen and (min-width:600px){
+  //home page slideshow
+  .home-slide-container {
+      background: $dkGrey;
+  }
+  
+  .home-slide-text {
+       width: 30%;
+       float: left;
+       color:white;
+   }
+   
+    .flex-direction-nav a{
+      top:94%;
+    }
+
+   #main-content .home-slide-container img {
+     width:65%;  
+     float: right;
+ }
+
+   #main-content .flexslider{
+     background:$dkGrey;
+   }
+  
   
  //create columns with two view headers (such as dbs by subject)
   .content-header-columns .column {
