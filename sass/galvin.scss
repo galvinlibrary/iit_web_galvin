@@ -106,6 +106,10 @@ $border: 1px solid $ltGrey;
   a.iit-button, input.iit-button, #edit-submit-site-search-complex-{
     @include mimic-button;
   }
+  
+  a.iit-button:hover, input.iit-button:hover, #edit-submit-site-search-complex-:hover{
+    background:$ltGrey;
+  }
 
   a.alt-link{
     @include alternate-link;
