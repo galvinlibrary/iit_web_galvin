@@ -11,7 +11,7 @@ and open the template in the editor.
 // IIT Web colors
 $ltGrey: rgb(136,136,136);
 $medGrey: rgb(102,102,102);
-$dkGrey: rgb(68,68,68);
+$dkGrey: rgb(34,34,34);
 $crimson: rgb(109,3,3);
 $red: rgb(192,12,0);
 $yellow: rgb(255,153,0);
@@ -447,7 +447,7 @@ list-style: none;
 
 // M&C Request: highlight IIT home button
 nav#iit-gh-primary-nav li:last-child{
-  background:#222222;
+  background:$dkGrey;
   #iit-gh-menu-iit-home{
 //    color:$yellow;
   }

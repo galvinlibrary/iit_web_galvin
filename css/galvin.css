@@ -118,7 +118,7 @@ and open the template in the editor.
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003115}}
 #main-content strong, .sidebar strong {
-  color: #444444;
+  color: #222222;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003118}}
 #main-content .form-item .form-text, .sidebar .form-item .form-text {
@@ -280,8 +280,8 @@ and open the template in the editor.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003250}}
 .nav-no-float {
-  border-top: 1px solid #444444;
-  border-bottom: 1px solid #444444;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/_mixins\.scss}line{font-family:\0000382}}
 .nav-no-float li {
@@ -290,8 +290,8 @@ and open the template in the editor.
 }
 
 @media only screen and (max-width: 600px) {
-  border-top: 1px solid #444444;
-  border-bottom: 1px solid #444444;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/_mixins\.scss}line{font-family:\0000382}}
   li {
     font-size: 1.2em;
@@ -486,7 +486,7 @@ and open the template in the editor.
 @media only screen and (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003405}}
   .home-slide-container {
-    background: #444444;
+    background: #222222;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003409}}
@@ -509,7 +509,7 @@ and open the template in the editor.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003424}}
   #main-content .flexslider {
-    background: #444444;
+    background: #222222;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003430}}
