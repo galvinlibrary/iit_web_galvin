@@ -22,7 +22,7 @@ and open the template in the editor.
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\0000349}}
-.bump-right {
+.bump-right, #block-iit-display-hours-hours p a.bump-right {
   margin-left: 1em;
 }
 

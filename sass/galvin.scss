@@ -46,7 +46,7 @@ $border: 1px solid $ltGrey;
 @import "_mixins.scss"; // some mixins use colors, so import after variables
 
 .clear {clear:both;}
-.bump-right{margin-left: 1em;}
+.bump-right, #block-iit-display-hours-hours p a.bump-right {margin-left: 1em;}
 .CSShoney {display:none;} // for forms
 .float-left {float:left;}
 
