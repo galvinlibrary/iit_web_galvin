@@ -114,6 +114,10 @@ $border: 1px solid $ltGrey;
   a.alt-link{
     @include alternate-link;
   }
+  a.alt-link-lower{
+    @include alternate-link;
+    text-transform:lowercase;
+  }  
   img{
     max-width:100%;
   }
@@ -167,12 +171,7 @@ $border: 1px solid $ltGrey;
     width:16%;
   }
   
-  .news li{
-    font-size:.9em;
-    line-height:$sideBarLineHeight;
-    margin: 0 0 .6em .2em;
-  }
-  
+
   //search
   #edit-keys{
     width:110px;
@@ -192,9 +191,17 @@ $border: 1px solid $ltGrey;
     .block-title, p, a {color: $sideBarEmergencyFont;}
   }
   
-  p{
+  p, .item-list ul li, .item-list ul li a, a{
+   font-size: 0.938em;
    margin:0 0 .3em 0;
    line-height:$sideBarLineHeight;
+  }
+  
+  .item-list ul {
+    list-style: none;
+    li a {
+      margin-left: -12px;
+    }
   }
 }
 
