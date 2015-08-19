@@ -357,7 +357,7 @@ and open the template in the editor.
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003298}}
 #hours-page .col2 {
-  margin: 0 0 .4em 0;
+  margin: 0 0 1em 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003304}}
