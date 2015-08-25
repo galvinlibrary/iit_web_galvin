@@ -186,7 +186,7 @@ and open the template in the editor.
   font-size: 1.4em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003164}}
-.sidebar #block-block-19 .block-title {
+.sidebar #block-block-19 .block-title, .sidebar #block-block-21 .block-title {
   background: #6d0303;
   color: white;
 }
