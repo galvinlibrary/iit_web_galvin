@@ -195,7 +195,7 @@ and open the template in the editor.
   width: 16%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003175}}
-.sidebar hr.quick-links {
+.sidebar hr.quick-links, .sidebar hr.related-links {
   border: 1px solid #c8c8c8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003177}}

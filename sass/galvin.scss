@@ -172,7 +172,7 @@ $border: 1px solid $ltGrey;
     width:16%;
   }
   
-  hr.quick-links{border: 1px solid lighten($ltGrey,25%);}
+  hr.quick-links, hr.related-links{border: 1px solid lighten($ltGrey,25%);}
   //search
   #edit-keys{
     width:110px;
