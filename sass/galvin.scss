@@ -312,6 +312,15 @@ list-style: none;
   .col2{margin:0 0 1em 0;}
 }
 
+// textbooks
+.textbooks {
+  .form-text{
+    margin-top: 2em;
+  }
+  input.form-submit{ // search and clear buttons
+    @include mimic-button;
+  }
+}
 //create table-like elements using divs that are responsive:
 // currently used on staff page
 .div-col {
