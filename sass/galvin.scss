@@ -106,12 +106,17 @@ $border: 1px solid $ltGrey;
 
 //article content type
 
-#main-content article ul{
+#main-content article {
+  ul li{
+    margin-bottom:1em;
+  }
+  ul:last-child{
   list-style:none;
   padding-left:0;
-  li{
-    margin: 0 2em 0 0;
-    float:left;
+    li{
+      margin: 0 2em 0 0;
+      float:left;
+    }
   }
 }
 
