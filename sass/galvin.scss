@@ -120,6 +120,11 @@ $border: 1px solid $ltGrey;
   }
 }
 
+// tags in articles
+section.nodes article h1{
+  font-size: 1.5em;
+}
+
 #main-content, .sidebar{
   a{
     color:$linkColor;
