@@ -104,6 +104,17 @@ $border: 1px solid $ltGrey;
   
 }
 
+//article content type
+
+#main-content article ul{
+  list-style:none;
+  padding-left:0;
+  li{
+    margin: 0 2em 0 0;
+    float:left;
+  }
+}
+
 #main-content, .sidebar{
   a{
     color:$linkColor;
