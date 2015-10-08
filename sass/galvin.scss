@@ -341,6 +341,13 @@ list-style: none;
   input.form-submit{ // search and clear buttons
     @include mimic-button;
   }
+  
+  h3{
+    font-size:1.2em;
+    font-weight:400;
+    margin-top:2em;
+  }
+  
 }
 //create table-like elements using divs that are responsive:
 // currently used on staff page
