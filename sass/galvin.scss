@@ -360,6 +360,12 @@ list-style: none;
     margin-top:10px;
   }
   
+  .larger {
+    font-size: 120%;
+    margin: 0 16px 0 0;
+    line-height: 100%;
+}
+  
 }
 //create table-like elements using divs that are responsive:
 // currently used on staff page
