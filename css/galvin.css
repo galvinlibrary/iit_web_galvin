@@ -108,6 +108,10 @@ and open the template in the editor.
 #main-content .hide-item {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003109}}
+#main-content #subnav li {
+  margin-bottom: 0;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003117}}
 #main-content .article ul li {
