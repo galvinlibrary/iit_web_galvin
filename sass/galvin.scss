@@ -105,11 +105,15 @@ $border: 1px solid $ltGrey;
   .hide-item{
     display:none;
   }
+  
+  .subnav li{
+    //margin-bottom:0;
+  }
 }
 
 //article content type
 
-#main-content article {
+#main-content .article {
   ul li{
     margin-bottom:1em;
   }
@@ -124,7 +128,7 @@ $border: 1px solid $ltGrey;
 }
 
 // tags in articles
-section.nodes article h1{
+section.nodes .article h1{
   font-size: 1.5em;
 }
 
