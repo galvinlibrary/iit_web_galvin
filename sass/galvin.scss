@@ -137,7 +137,7 @@ section.nodes .article h1{
     color:$linkColor;
     font-weight: 600;
   }
-  a.iit-button, input.iit-button, #edit-submit-site-search-complex-{
+  a.iit-button, input.iit-button, #edit-submit-site-search-complex-, .views-exposed-form .views-exposed-widget .form-submit{
     @include mimic-button;
   }
   
