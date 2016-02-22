@@ -61,6 +61,10 @@ $border: 1px solid $ltGrey;
   h1, h2, h3, h4, h5, h6 {
     color: $headerColors;
   }
+  
+  ul li{
+    margin-bottom:.8em;
+  }
  
   .bump-down{margin-top:1em;}
   
@@ -114,9 +118,6 @@ $border: 1px solid $ltGrey;
 //article content type
 
 #main-content .node-article {
-  ul li{
-    margin-bottom:1em;
-  }
   ul:last-child{
   list-style:none;
   padding-left:0;
