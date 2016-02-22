@@ -114,16 +114,16 @@ and open the template in the editor.
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003117}}
-#main-content .article ul li {
+#main-content .node-article ul li {
   margin-bottom: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003120}}
-#main-content .article ul:last-child {
+#main-content .node-article ul:last-child {
   list-style: none;
   padding-left: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003123}}
-#main-content .article ul:last-child li {
+#main-content .node-article ul:last-child li {
   margin: 0 2em 0 0;
   float: left;
 }
