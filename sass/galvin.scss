@@ -352,9 +352,7 @@ list-style: none;
 
 // textbooks
 .textbooks {
-  .form-text{
-    margin-top: 2em;
-  }
+
   input.form-submit{ // search and clear buttons
     @include mimic-button;
   }
