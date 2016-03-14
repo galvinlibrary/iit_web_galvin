@@ -398,6 +398,16 @@ list-style: none;
   .col2{
     margin: 0 0 2em 0;
   }
+  
+    // for columns in VuFind searches
+  #main-content .search-form .div-col {
+    .col2{
+      input{
+        margin: 10px 0 0 10px;
+      }
+    }
+  }  
+  
 }
 
 @media only screen and (min-width:768px){
