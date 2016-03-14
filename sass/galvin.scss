@@ -416,6 +416,15 @@ list-style: none;
       width:40%;
    }
   }
+  
+  // for columns in VuFind searches
+  #main-content .search-form .div-col {
+    .col2{
+      input{
+        margin: -10px 0 0 10px;
+      }
+    }
+  }  
 
 }
 
