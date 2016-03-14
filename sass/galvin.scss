@@ -377,9 +377,6 @@ list-style: none;
 //create table-like elements using divs that are responsive:
 // currently used on staff page
 .div-col {
-  .col-2{
-    margin: 0 0 2em 0;
-  }
   .view-grouping-header{
       clear:both;
       @include mimic-H2;
