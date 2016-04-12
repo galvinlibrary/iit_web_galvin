@@ -36,10 +36,11 @@ $breadcrumbLinkHover: $crimson;
 $breadcrumbActive: $headerColors;
 
 $subNavLinkColor: $medGrey;
+$subNavBorderColor: $ltGrey;
 $subNavActiveLinkColor: $white;
 $subNavActiveBackgroundColor: $yellow;
 $subNavHoverLinkColor: $white;
-$subNavHoverBackgroundColor: #cccccc;
+$subNavHoverBackgroundColor: $ltGrey;
 
 $border: 1px solid $ltGrey;
 
@@ -278,8 +279,8 @@ section.nodes .article h1{
 
 // Sub Navigation
 
-#subnav{
-background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
+#subnav{ 
+// background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
 float: left;
 font-family: 'Open Sans', sans-serif;
 font-size: .86em;
@@ -293,18 +294,25 @@ list-style: none;
   li{
     float:left;
     line-height: 1.5em;
-    margin: .2em 0;
+    margin: 1em 0;
     a {
+      border: 1px solid $subNavBorderColor;
+      margin-right: 10px;
+      background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
       color: $subNavLinkColor;
       padding: .2em 1em;
       font-weight:normal;
     }
     a:hover{
       text-decoration: none;
+      background-image:none;
       background-color: $subNavHoverBackgroundColor;
       color: $subNavHoverLinkColor;  
+      border: none;
     }
     a.active{
+      border:none;
+      background-image:none;
       background-color: $subNavActiveBackgroundColor;
       color: $subNavActiveLinkColor;
       font-weight: bold;  
