@@ -36,10 +36,11 @@ $breadcrumbLinkHover: $crimson;
 $breadcrumbActive: $headerColors;
 
 $subNavLinkColor: $medGrey;
+$subNavBorderColor: $ltGrey;
 $subNavActiveLinkColor: $white;
 $subNavActiveBackgroundColor: $yellow;
 $subNavHoverLinkColor: $white;
-$subNavHoverBackgroundColor: #cccccc;
+$subNavHoverBackgroundColor: $ltGrey;
 
 $border: 1px solid $ltGrey;
 
@@ -311,6 +312,27 @@ list-style: none;
     }
   } 
 }
+
+#subnav.subnav-page{ // this is only for basic pages with sub-navigation. keeps the mobile nav pages from adding this style""
+  background-image:none;
+  li{
+    margin: 1em 0;
+    a{
+      border: 1px solid $subNavBorderColor;
+      margin-right: 10px;
+      background-image: url(/sites/all/themes/iit_web_galvin/css/images/background.png);
+    }
+    a:hover{
+      background-image:none;
+      border: none;
+    }
+    a.active{
+      border:none;
+      background-image:none;
+    }
+  }
+}
+
 
   .nav-no-float {
     @include subnav-mobile;
