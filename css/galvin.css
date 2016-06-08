@@ -711,6 +711,11 @@ section.nodes .article h1 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003602}}
+#iit-gh-menu-container a.menu-highlight {
+  font-weight: 600;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/sites\/all\/themes\/iit_web_galvin\/sass\/galvin\.scss}line{font-family:\00003607}}
 nav#iit-gh-primary-nav li:last-child {
   background: #222222;
 }
