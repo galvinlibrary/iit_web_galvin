@@ -598,6 +598,11 @@ list-style: none;
   } // breathing room for sidebar 
 }
 
+//header menu
+#iit-gh-menu-container a.menu-highlight {
+  font-weight: 600;
+}
+
 // M&C Request: highlight IIT home button
 nav#iit-gh-primary-nav li:last-child{
   background:$dkGrey;
