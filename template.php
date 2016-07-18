@@ -26,6 +26,14 @@
  * Preprocess variables for the html template.
  */
 
+function iit_web_galvin_preprocess_page(&$vars) {
+ 
+  if (arg(0) == 'node' && is_numeric(arg(1)) && arg(1) == 2615) { // nid for leisure reading page
+     drupal_add_js(path_to_theme().'/scripts/leisure-books.js','file');
+  }
+  
+}
+
 function iit_web_galvin_fix_title($breadcrumb, $fixTitle, $wrongTitle){
   $debug=false;
   $start=strpos($fixTitle, "href=\"");
