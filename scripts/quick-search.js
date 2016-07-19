@@ -1,6 +1,19 @@
 (function($){
+
+  
+  function qs_set_form(formName){
+    var forms = ["searchEbsco", "searchOpac", "searchSite"];
+    $.each(forms, function( key, value ) {
+      if (value === formName){
+        $("#" + value).removeClass("hide");
+      }
+      else {
+        $("#" + value).addClass("hide");
+      }
+    });
+  }
+  
 	$(document).ready(function(){
-    alert("gen search");
-    $('#homePageSearchForm').html("<p>function changed text</p>");
+    qs_set_form("searchEbsco");
 	});
 })(jQuery);
