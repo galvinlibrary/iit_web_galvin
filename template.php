@@ -26,6 +26,14 @@
  * Preprocess variables for the html template.
  */
 
+function iit_web_galvin_preprocess_page(&$vars) {
+ 
+  if ($vars['is_front']){ // nid for Quick search node (which should be separated from Single page)
+     drupal_add_js(path_to_theme().'/scripts/quick-search.js','file');
+  }
+  
+}
+
 function iit_web_galvin_fix_title($breadcrumb, $fixTitle, $wrongTitle){
   $debug=false;
   $start=strpos($fixTitle, "href=\"");
