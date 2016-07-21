@@ -29,9 +29,9 @@
 function iit_web_galvin_preprocess_page(&$vars) {
  
   if ($vars['is_front']){ // nid for Quick search node (which should be separated from Single page)
-     drupal_add_js(path_to_theme().'/scripts/quick-search.js','file');
+     drupal_add_js(path_to_theme().'/scripts/galvin-quick-search.js','file');
   }
-  
+ 
 }
 
 function iit_web_galvin_fix_title($breadcrumb, $fixTitle, $wrongTitle){
