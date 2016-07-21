@@ -22,6 +22,7 @@
   stylesheets[screen][] = css/iit-launchpage.css
   stylesheets[screen][] = css/iit-searchpage.css
   stylesheets[screen][] = css/galvin.css
+  stylesheets[screen][] = css/galvin-quick-search.css
 
 
   ; Print - uncomment to load basic print styles.
