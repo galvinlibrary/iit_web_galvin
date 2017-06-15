@@ -29,7 +29,7 @@ and open the template in the editor.
   float: left; }
 
 .load-iframe {
-  background: url("images/loading-image.gif") no-repeat 20% 20px;
+  /*background: url("images/loading-image.gif") no-repeat 20% 20px;*/
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;

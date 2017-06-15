@@ -2,7 +2,7 @@
 
   
   function qs_set_form(formName){
-    var forms = ["searchEbsco", "searchOpac", "searchWebsite"]; //these names correspond to the IDs of the divs for this page
+    var forms = ["searchEbsco", "searchOpac", "searchWebsite", "searchResearch"]; //these names correspond to the IDs of the divs for this page
     $.each(forms, function( key, value ) {
       if (value === formName){
         $("#" + value).removeClass("hide");
@@ -24,6 +24,9 @@
     });    
     $('#website').click(function() {
       qs_set_form("searchWebsite");
+    });
+	$('#research').click(function() {
+      qs_set_form("searchResearch");
     });    
 	});
 })(jQuery);

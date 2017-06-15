@@ -14,3 +14,7 @@ div#searchSelect label {
 div#searchWebsite input {
   margin: 0 10px 0 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/z\:\/WebsiteDrupal\/iit_web_galvin\/sass\/galvin-quick-search\.scss}line{font-family:\0000315}}
+div#searchResearch input {
+  margin: 0 10px 0 0;
+}
