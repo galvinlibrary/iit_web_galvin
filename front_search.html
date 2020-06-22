@@ -1,0 +1,36 @@
+<h2>Search:</h2>
+<div id="searchSelect"><input checked="checked" id="ebsco" name="searchType" type="radio" value="genTopic" /> <label for="ebsco">articles</label> <input id="opac" name="searchType" type="radio" value="opac" /> <label for="opac">books</label> <input id="research" name="searchType" type="radio" value="research" /> <label for="research">research guides</label><input id="website" name="searchType" type="radio" value="website" /><label for="website">website</label></div>
+<p><noscript>
+  This page is formatted so that it is best used with Javascript enabled, but the search options below are still functional.
+</noscript></p>
+<div id="searchEbsco">
+	<h3>General Topic Articles</h3>
+	<p>Have a general research topic? Enter it below to search the following databases: <em>Academic Search Complete</em>, <em>Business Source Complete,</em>&nbsp;and <em>Funk &amp; Wagnalls New World Encyclopedia</em>.</p>
+	<!-- EBSCOhost Custom Search Box Begins --><script type="text/javascript" src="https://support.ebscohost.com/eit/scripts/ebscohostsearch.js"></script>
+	<form action="" id="ebscohostCustomSearchBox" method="post" onsubmit="return ebscoHostSearchGo(this);"><input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" /><input id="ebscohosturl" name="ebscohosturl" type="hidden" value="https://ezproxy.gl.iit.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&amp;site=ehost-live&amp;scope=site&amp;type=1&amp;db=a9h&amp;db=buh&amp;db=funk&amp;mode=and&amp;lang=en&amp;authtype=ip,url" /><input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="url" /><input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+OR+" /> <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+		<div class="search-form"><input id="ebscohostsearchtext" name="ebscohostsearchtext" size="30" type="text" />&nbsp;&nbsp;<input class="iit-button" type="submit" value="Search" /></div>
+	</form>
+</div>
+<div id="searchOpac">
+	<h3>Books at IIT</h3>
+	<p>Use the IIT Library Catalog to search for books, e-books, and print journals held by IIT libraries. Login to your&nbsp;<a href="https://i-share.carli.illinois.edu/vf-iit/MyResearch/Home">online account</a> to see items checked out from IIT and I-Share libraries.</p>
+	<form action="https://i-share.carli.illinois.edu/vf-iit/Search/Results" class="search-form" method="get" name="bookSearch" target="_blank">
+		<div class="div-col">
+			<div class="col1"><input maxlength="200" name="lookfor" size="40" title="Search the IIT Library Catalog" type="text" /> by &nbsp;</div>
+			<div class="col2"><select id="searchtype" name="type" size="1"><option value="AllFields">Keyword</option><option value="title">Title</option><option value="author">Author</option><option value="subject">Subject</option><option value="isn">ISBN/ISSN</option></select><input name="limit" type="hidden" value="20" /><input class="iit-button" name="submit" type="submit" value="Search" /></div>
+		</div>
+	</form>
+</div>
+<div id="searchResearch">
+	<h3>Research Guides</h3>
+	<p>Search for research guides based on Course or Subject.</p>
+	<form action="https://guides.library.iit.edu/srch.php" method="get">
+		<p><input id="searchs" name="q" size="59" style="font-family:Verdana; font-size:10px;" type="text" /> <input class="iit-button" type="submit" value="Search" /></p>
+	</form>
+</div>
+<div id="searchWebsite">
+	<h3>Information on this Website</h3>
+	<p>Search for policies, employee information, or other library services on this site.</p>
+	<form accept-charset="UTF-8" action="/search" id="views-exposed-form-site-search-complex--search-page" method="get"><input class="form-text" id="edit-keys" maxlength="128" name="keys" size="40" title="Enter the terms you wish to search for." type="text" value="" /> <input class="form-submit" id="edit-submit-site-search-complex-" name="" type="submit" value="Search" />&nbsp;</form>
+</div>
+<p>&nbsp;</p>
